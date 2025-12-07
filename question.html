@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alexyAI - Posez vos questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-page">
+        <header class="chat-header">
+            <a href="navigation.html" class="back-link">← Retour</a>
+            <h1>alexyAI</h1>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Bonjour ! Je suis alexyAI. Posez-moi des questions sur Alexy et je ferai de mon mieux pour y répondre !</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="suggestions-container" id="suggestionsContainer">
+                <div class="suggestion-card" data-question="Quelle est la musique préférée de Jolagreen ?">
+                    <span>Quelle est la musique préférée de Jolagreen ?</span>
+                </div>
+                <div class="suggestion-card" data-question="Quelles sont ses coordonnées ?">
+                    <span>Quelles sont ses coordonnées ?</span>
+                </div>
+                <div class="suggestion-card" data-question="Quelles sont ses destinations de rêves ?">
+                    <span>Quelles sont ses destinations de rêves ?</span>
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <input type="text" id="chatInput" class="chat-input" placeholder="Tapez votre question ici..." autocomplete="off">
+                <button id="sendButton" class="send-button">Envoyer</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="chat.js"></script>
+</body>
+</html>
+
