@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navigation-container">
+        <header class="nav-header">
+            <a href="index.html" class="back-link">← Retour</a>
+            <h1>Explorez mon portfolio</h1>
+        </header>
+        
+        <div class="options-grid">
+            <a href="page1.html" class="option-card">
+                <div class="option-icon">👤</div>
+                <h2>Qui je suis</h2>
+            </a>
+            
+            <a href="page2.html" class="option-card">
+                <div class="option-icon">🎯</div>
+                <h2>Mes centres d'intérêts</h2>
+            </a>
+            
+            <a href="page3.html" class="option-card">
+                <div class="option-icon">❤️</div>
+                <h2>Ma passion</h2>
+            </a>
+            
+            <a href="page4.html" class="option-card">
+                <div class="option-icon">🚀</div>
+                <h2>Perspective d'avenir proche</h2>
+            </a>
+        </div>
+        
+        <div class="questions-container">
+            <a href="questions.html" class="questions-card">
+                <h2>Des questions</h2>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
