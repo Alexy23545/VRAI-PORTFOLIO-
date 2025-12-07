@@ -1,33 +1,64 @@
 // Base de connaissances sur Alexy
 const knowledgeBase = {
-    "qui": "Alexy est un étudiant de 20 ans qui a choisi d'étudier dans le domaine du sport car le tennis est sa passion depuis tout petit. Il étudie en licence en alternance pour lier le tennis et son aspect commercial.",
-    "age": "Alexy a 20 ans.",
-    "étudiant": "Alexy est un étudiant de 20 ans qui fait une licence en alternance dans le domaine du sport.",
-    "alternance": "Alexy a choisi de faire une licence en alternance car il estime que d'être dans la vie active et dans le monde professionnel en même temps qu'étudier l'aspect théorique des choses à l'école est le meilleur moyen d'apprendre.",
-    "qualités": "Les qualités d'Alexy sont : rigueur, investissement, compréhensif, curieux et heureux d'aider les autres.",
-    "tennis": "Le tennis est la passion d'Alexy depuis tout petit. Il a commencé autour de ses quatre ans et a atteint un classement de 3/6. Le tennis lui permet de s'échapper et de travailler sur lui-même.",
-    "passion": "La passion d'Alexy est le tennis. Il a commencé tout jeune autour de ses quatre ans, a fait de la compétition et a atteint son meilleur classement (3/6). Le tennis lui a appris la persévérance, le travail, l'envie de découvrir et de s'améliorer.",
-    "classement": "Le meilleur classement d'Alexy au tennis est 3/6.",
-    "psg": "Alexy est fan du Paris Saint-Germain depuis tout petit et regarde tous les matchs avec ferveur.",
-    "mode": "Alexy aime beaucoup la mode et tout ce qui va avec l'esthétique : les accessoires, les coupes de cheveux, les boucles d'oreilles, les bijoux.",
-    "musique": "Alexy aime beaucoup la musique. Ses artistes francophones préférés sont PNL, Hamza ou encore Jolagreen. Pour le reste du monde, il apprécie The Weeknd, Future, Coldplay ou Michael Jackson.",
-    "passe-temps": "Les passe-temps d'Alexy incluent le tennis, le PSG, la mode, la musique, et passer du temps avec ses amis, sa famille et sa copine.",
-    "famille": "Alexy aime passer du temps avec sa famille, surtout ses parents, sa sœur qui vient d'être mère d'une petite fille merveilleuse, et sa copine.",
-    "australie": "Dans un avenir proche, Alexy souhaite partir avec sa copine en Australie pendant au moins un an pour y travailler en fermes, gagner de l'argent, découvrir une nouvelle culture, développer son anglais et voyager.",
-    "avenir": "Alexy souhaite partir en Australie avec sa copine pendant au moins un an pour travailler en fermes, découvrir une nouvelle culture, développer son anglais et voyager. Il aimerait aussi visiter l'Asie, le Japon, Bali et d'autres pays magnifiques.",
-    "voyage": "Alexy souhaite voyager, notamment en Australie, en Asie, au Japon, à Bali et dans d'autres pays magnifiques.",
-    "anglais": "Alexy souhaite développer son anglais lors de son voyage en Australie, car cela sera un gros atout plus tard.",
+    // Identité
+    "identité": "Nom : Alexy Vrignaud. Né le 13 novembre 2005 (20 ans en 2025).",
     "nom": "Alexy Vrignaud",
-    "magasin": "Avec ses qualités, Alexy peut développer ses compétences dans un magasin spécialisé dans le tennis et padel.",
-    "jolagreen": "C'est très difficile pour lui de choisir donc je peux t'en donner 3 et non une seule : 12HEURES MINUIT, PLUS LE MEME et CR7 MAN UTD.",
-    "musique préférée": "C'est très difficile pour lui de choisir donc je peux t'en donner 3 et non une seule : 12HEURES MINUIT, PLUS LE MEME et CR7 MAN UTD.",
-    "coordonnées": "Numéro de téléphone : 0770283540, email pro : a.vrignaud@ileps.fr",
-    "contact": "Numéro de téléphone : 0770283540, email pro : a.vrignaud@ileps.fr",
-    "téléphone": "Numéro de téléphone : 0770283540, email pro : a.vrignaud@ileps.fr",
-    "email": "Numéro de téléphone : 0770283540, email pro : a.vrignaud@ileps.fr",
-    "destinations": "Bali, Australie et New York.",
-    "destinations de rêves": "Bali, Australie et New York.",
-    "rêves": "Bali, Australie et New York."
+    "né le": "13 novembre 2005 (20 ans en 2025).",
+    "age": "Alexy a 20 ans (en 2025).",
+    "étudiant": "Homme, étudiant en sport, licence en alternance.",
+    "alternance": "Licence en alternance pour combiner théorie et expérience professionnelle.",
+    "qualités": "Rigoureux, investi, compréhensif, curieux, serviable.",
+    // Famille
+    "famille": "Parents : Éric (54 ans) et Céline (52 ans), tous deux jouent au tennis. Sœur : Camille, mère d’Inayah (1 an). Copine : Fidéline (née le 7 mars 2005).",
+    "parents": "Parents : Éric (54 ans) et Céline (52 ans), pratiquent le tennis.",
+    "sœur": "Sœur : Camille, mère d’Inayah (1 an).",
+    "copine": "Copine : Fidéline, née le 7 mars 2005, même âge qu’Alexy.",
+    // Vie personnelle
+    "permis": "Permis obtenu depuis 2 ans.",
+    "voiture": "Clio 5.",
+    // Études & Professionnel
+    "objectif professionnel": "Métier lié au tennis et au commerce, entrer en entreprise avec de l’expérience.",
+    "magasin": "Possibilité de travailler dans un magasin spécialisé tennis/padel.",
+    // Passions & Tennis
+    "tennis": "Passion depuis l’enfance, compétition très jeune, meilleur classement 3/6.",
+    "classement": "Meilleur classement : 3/6.",
+    "psg": "Supporter du PSG.",
+    "marque de tennis": "Wilson.",
+    "raquettes": "Wilson Blade 98 18x20.",
+    "raquette": "Wilson Blade 98 18x20.",
+    "style de jeu": "Défenseur-contreur.",
+    "surface préférée": "Résine intérieure.",
+    // Mode & esthétique
+    "couleurs préférées": "Violet et rose.",
+    "vêtements": "Intérêt pour le style, accessoires, bijoux, coupes de cheveux.",
+    "marques vêtements": "Arte, Nike, Snores.",
+    "chaussures": "Asics.",
+    // Parfums
+    "parfums": "Terre d’Hermès, L’Interdit.",
+    "parfum": "Terre d’Hermès, L’Interdit.",
+    // Musique
+    "musique": "Sensible au rythme, aux paroles et aux mélodies. Artistes FR : PNL, Hamza, Jolagreen, Ninho. Internationaux : The Weeknd, Future, Coldplay, Michael Jackson.",
+    "albums préférés": "1994 (Hamza), les 3 albums de PNL, 99+XP (Jolagreen), M.I.L.S 2.0 (Ninho).",
+    "jolagreen": "Difficile de choisir : 12HEURES MINUIT, PLUS LE MEME, CR7 MAN UTD.",
+    "musique préférée": "Difficile de choisir : 12HEURES MINUIT, PLUS LE MEME, CR7 MAN UTD.",
+    // Vie sociale
+    "vie sociale": "Proche de ses amis, de sa famille (parents, sœur Camille, nièce Inayah) et de Fidéline.",
+    // Goûts alimentaires
+    "plats préférés": "Plats pimentés, souvent riz + poulet, style indien.",
+    // Séries & films
+    "séries": "Peaky Blinders, Prison Break, Snowfall.",
+    "films": "Transformers, Fast and Furious.",
+    "sagas": "Transformers, Fast and Furious.",
+    // Personnalité
+    "personnalité": "Perçu parfois comme aigri et nonchalant au premier abord, en réalité rigoureux, investi, curieux et serviable.",
+    // Tennis – valeurs
+    "valeurs tennis": "Concentration, évasion, persévérance, résilience, travail sur soi, esprit de compétition, curiosité.",
+    // Avenir proche
+    "australie": "Souhaite partir un an en Australie avec Fidéline : travailler en fermes, gagner de l’argent, découvrir une culture différente, améliorer l’anglais, voyager.",
+    "avenir": "Projet Australie avec Fidéline, envie de voyager et réfléchir à l’avenir pro.",
+    "destinations": "Asie, Japon, Bali et d’autres pays.",
+    "destinations de rêves": "Asie, Japon, Bali et d’autres pays.",
+    "voyage": "Objectifs : découvrir, améliorer son anglais, voyager."
 };
 
 // Fonction pour obtenir une réponse basée sur la question
@@ -35,6 +66,58 @@ function getResponse(question) {
     const lowerQuestion = question.toLowerCase();
     
     // Questions spécifiques prioritaires
+    if (lowerQuestion.includes("raquette")) {
+        return "Ses raquettes : Wilson Blade 98 18x20.";
+    }
+    
+    if (lowerQuestion.includes("marque") && (lowerQuestion.includes("tennis") || lowerQuestion.includes("raquette"))) {
+        return "Sa marque de tennis préférée : Wilson.";
+    }
+    
+    if (lowerQuestion.includes("style de jeu")) {
+        return "Style de jeu : défenseur-contreur.";
+    }
+    
+    if (lowerQuestion.includes("surface préférée") || (lowerQuestion.includes("surface") && lowerQuestion.includes("préf"))) {
+        return "Surface préférée : résine intérieure.";
+    }
+    
+    if (lowerQuestion.includes("voiture")) {
+        return "Voiture : Clio 5.";
+    }
+    
+    if (lowerQuestion.includes("permis")) {
+        return "Permis obtenu depuis 2 ans.";
+    }
+    
+    if (lowerQuestion.includes("parfum")) {
+        return "Parfums : Terre d’Hermès, L’Interdit.";
+    }
+    
+    if (lowerQuestion.includes("couleur") && lowerQuestion.includes("préfér")) {
+        return "Couleurs préférées : violet et rose.";
+    }
+    
+    if ((lowerQuestion.includes("marques") || lowerQuestion.includes("marque")) && (lowerQuestion.includes("vêtement") || lowerQuestion.includes("vetement"))) {
+        return "Marques vêtements préférées : Arte, Nike, Snores.";
+    }
+    
+    if (lowerQuestion.includes("chaussures")) {
+        return "Chaussures préférées : Asics.";
+    }
+    
+    if (lowerQuestion.includes("plats préférés") || (lowerQuestion.includes("plat") && lowerQuestion.includes("préfér"))) {
+        return "Plats préférés : plats pimentés, souvent riz + poulet, style indien.";
+    }
+    
+    if (lowerQuestion.includes("série") || lowerQuestion.includes("séries")) {
+        return "Séries : Peaky Blinders, Prison Break, Snowfall.";
+    }
+    
+    if (lowerQuestion.includes("film") || lowerQuestion.includes("saga") || lowerQuestion.includes("sagas")) {
+        return "Sagas/films : Transformers, Fast and Furious.";
+    }
+    
     if (lowerQuestion.includes("jolagreen") && (lowerQuestion.includes("musique") || lowerQuestion.includes("préférée") || lowerQuestion.includes("préféré"))) {
         return "C'est très difficile pour lui de choisir donc je peux t'en donner 3 et non une seule : 12HEURES MINUIT, PLUS LE MEME et CR7 MAN UTD.";
     }
